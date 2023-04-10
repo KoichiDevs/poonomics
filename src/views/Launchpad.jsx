@@ -78,20 +78,14 @@ const Launchpad = () => {
                     </a>
                 </div>
             </motion.div>
-            <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 100 }} transition={{ duration: 0.7, ease: [0.33, 1, 0.68, 1], delay: 0.2 }} className="mt-10 flex gap-x-8 items-center md:mx-0 mx-auto w-fit md:flex-row flex-col gap-y-7">
-                <a href="https://pooswap.finance" target="_blank" rel="noopener noreferrer" className="">
-                    <button className="flex items-center gap-x-2 bg-gradient-to-br px-7 py-4 from-sauce to-mypink rounded-lg transition-all ease-in-out duration-300 hover:shadow-hover hover:translate-y-[-6px]">
-                        <p className="text-lg">Buy Token</p>
-                        <FaLongArrowAltRight />
-                    </button>
-                </a>
-                <a href="https://t.me/PooChainBlockchain" target="_blank" rel="noopener noreferrer" className="">
-                    <button className="flex gap-x-2 items-center text-lg">
-                        <p className="">Community</p>
-                        <FaTelegramPlane className='text-xl' />
-                    </button>
-                </a>
-            </motion.div>
+            <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 100 }} transition={{ duration: 0.7, ease: [0.33, 1, 0.68, 1], delay: 0.2 }} className="mt-10 flex gap-x-8 items-center mx-auto w-fit flex-col justify-center gap-y-7">
+    <a href="https://PooPad.co" target="_blank" rel="noopener noreferrer" className="">
+        <button className="flex items-center gap-x-2 bg-gradient-to-br px-7 py-4 from-sauce to-mypink rounded-lg transition-all ease-in-out duration-300 hover:shadow-hover hover:translate-y-[-6px]">
+            <p className="text-lg">Check Launchpad</p>
+            <FaLongArrowAltRight />
+        </button>
+    </a>
+</motion.div>
         </div>
     </section>
 )
